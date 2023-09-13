@@ -81,7 +81,7 @@ const AboutSection = () => {
                 )
               })}
             </div>
-            <img
+            <Image
               src="/guitarist.png"
               alt=""
               width={325}
