@@ -6,28 +6,37 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
-    description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    name: "ML Salary Prediction App",
+    description: 
+      "Based on 2020 Stack Overflow Survey, this streamlit app visualizes salaries of Software Developers around the world and utilizes Machine Learning algorithm to predict salary of a Software Developer.",
+    image: "/mlapp.png",
+    github: "https://github.com/Ladeece1/ML-App",
+    link: "https://swesalaryprediction.streamlit.app/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "HooBank",
+    description:
+      "A bank's website made with ReactJS and styled with Tailwind CSS.",
+    image: "/hoobank.png",
+    github: "https://github.com/Ladeece1/ReactBankApp",
+    link: "https://github.com/Ladeece1/ReactBankApp",
   },
   {
-    name: "Kator Family Photos",
+    name: "Economy Prediction Model",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Prediction model using FRED's dataset and Facebook's Prophet as model",
+    image: "/newprophet.png",
+    github: "https://github.com/Ladeece1/ProphetEconomyPrediction",
+    link: "https://github.com/Ladeece1/ProphetEconomyPrediction",
   },
+  {
+    name: "Stay tuned for more...",
+    description:
+      "Let me know what I should build too! Just drop me an email, I would love to hear your ideas. My area of interests currently: Generative AI, Economy Prediction, Algorithmic Trading",
+    image: "/comingsoon.jpg",
+    github: "",
+    link: "",
+  }
 ]
 
 const ProjectsSection = () => {

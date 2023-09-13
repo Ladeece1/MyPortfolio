@@ -2,17 +2,25 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
+  { skill: "Python" },
+  { skill: "Machine Learning"},
+  { skill: "Python Automation"},
+  { skill: "Jupyter Notebooks" },
+  { skill: "OpenCV" },
+  { skill: "Streamlit" },
+  { skill: "Microsoft Excel" },
+  { skill: "Data Visualization" },
+  { skill: "MySQL" },
+  { skill: "GraphQL" },
+  { skill: "Java" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
+  { skill: "ReactJS" },
+  { skill: "NextJS" },
   { skill: "Tailwind CSS" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Google Analytics" },
 ]
 
 const AboutSection = () => {
@@ -30,39 +38,37 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              Hi, my name is enxuan and I am currently a{" "}
+              <span className="font-bold">{"Penultimate Year Undergraduate Student"}</span>{" "}pursuing my Bachelors Degree in
+              <span className="font-bold">{" Computer Science with AI "}</span> in
+              <span className="font-bold">{" University of Nottingham Malaysia"}</span>.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I'm a curious individual that's always trying to accquire new skills and knowledge in fields
+              that sparks my interest and currently I'm extermely invested in learning how AI can be applied in various 
+              industries and how we as a new generation of talent can help companies hop on the AI trend to help their
+              company reach new heights.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              I also have lots of hobbies during my free time such as reading, playing music and making coffee. These hobbies drive me
+              to work harder and more effeciently so that I can have more time and energy to be spent on them.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
+              I believe that one should{" "}
               <span className="font-bold text-teal-500">
-                never stop growing
+                never stop learning
               </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              in this era due to how fast paced and competitive our lives had become. Though challenging,
+              but I'm a strong believer in the culture of <span className="font-bold text-teal-500">work hard, play hard</span>.
+              Which is speficially why I'm always pushing myself to my limits just to rest extremely hard and prepare for 
+              a new cycle of learning. Such life is one worth living!
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+            <h1 className="text-2xl font-bold mb-6">My Skillset</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
@@ -76,7 +82,7 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/guitarist.png"
               alt=""
               width={325}
               height={325}
