@@ -14,6 +14,7 @@ const HeroSection = () => {
             alt=""
             width={325}
             height={325}
+            priority={true}
             className="rounded-full shadow-2xl"
           />
         </div>
