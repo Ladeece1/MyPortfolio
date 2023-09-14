@@ -55,17 +55,8 @@ const AboutSection = () => {
               I also have lots of hobbies during my free time such as reading, playing music and making coffee. These hobbies drive me
               to work harder and more effeciently so that I can have more time and energy to be spent on them.
             </p>
-            <br />
-            <p>
-              I believe that one should{" "}
-              <span className="font-bold text-teal-500">
-                never stop learning
-              </span>{" "}
-              in this era due to how fast paced and competitive our lives had become. Though challenging,
-              but I'm a strong believer in the culture of <span className="font-bold text-teal-500">work hard, play hard</span>.
-              Which is speficially why I'm always pushing myself to my limits just to rest extremely hard and prepare for 
-              a new cycle of learning. Such life is one worth living!
-            </p>
+    
+            
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skillset</h1>
