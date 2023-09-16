@@ -32,7 +32,7 @@ const projects = [
   {
     name: "Stay tuned for more...",
     description:
-      "Let me know what I should build too! Just drop me an email, I would love to hear your ideas. My area of interests currently: Generative AI, Economy Prediction, Algorithmic Trading",
+      "Let me know what I should build too! Just drop me an email, I would love to hear your ideas. My area of interests currently: Deep Learning, Natural Language Processing, Business related ML Models, Algorithmic Trading",
     image: "/comingsoon.jpg",
     github: "",
     link: "",
