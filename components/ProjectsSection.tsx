@@ -19,7 +19,7 @@ const projects = [
       "A bank's website made with ReactJS and styled with Tailwind CSS.",
     image: "/hoobank.png",
     github: "https://github.com/Ladeece1/ReactBankApp",
-    link: "https://github.com/Ladeece1/ReactBankApp",
+    link: "https://react-bank-app-gilt.vercel.app/",
   },
   {
     name: "Economy Prediction Model",
