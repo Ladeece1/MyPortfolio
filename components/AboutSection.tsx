@@ -20,7 +20,7 @@ const skills = [
   { skill: "ReactJS" },
   { skill: "NextJS" },
   { skill: "Tailwind CSS" },
-  { skill: "Google Analytics" },
+  { skill: "Fundamental Investment Analysis" },
 ]
 
 const AboutSection = () => {
@@ -46,9 +46,8 @@ const AboutSection = () => {
             <br />
             <p>
               I'm a curious individual that's always trying to accquire new skills and knowledge in fields
-              that sparks my interest and currently I'm extermely invested in learning how AI can be applied in various 
-              industries and how we as a new generation of talent can help companies hop on the AI trend to help their
-              company reach new heights.
+              that sparks my interest and currently I'm extermely invested in learning about finance, banking, econmics and investments.
+              Trying my best to land an internship in finance!
             </p>
             <br />
             <p>
