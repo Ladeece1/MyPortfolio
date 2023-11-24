@@ -21,14 +21,14 @@ const HeroSection = () => {
         <div className="md:mt-2 md:w-3/5">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hey there, I'm En Xuan</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            Part time Artificial Intelligence enthusiast and full time {" "}
+            Part time finance and investment enthusiast and full time {" "}
             <span className="font-semibold text-teal-600">
               Computer Science Undergraduate {" "}
             </span>
             based in Kuala Lumpur, Malaysia. 
           </p>
           <a
-            href="/MyNewestResume.pdf"
+            href="/LimEnXuanResume.pdf"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
           >
             My Resume
